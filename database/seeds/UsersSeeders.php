@@ -14,7 +14,7 @@ class UsersSeeders extends Seeder
         DB::table('users')->insert([
             [
                 'email' => 'luas0_1@yahoo.es',
-                'password' => \Hash::make('123456'),
+                'password' => \Hash::make('kanito123_'),
                 'rol' => 'Administrador',
                 'name' => 'Saul Mamani M.',
                 'fotografia' => 'foto_base.png',
